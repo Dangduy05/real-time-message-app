@@ -5,6 +5,7 @@
 ## 1. Công nghệ sử dụng
 
 | Thành phần | Công nghệ |
+| --- | --- |
 | Frontend | React, Vite, Zustand, Socket.IO Client |
 | Backend | Node.js, Express.js, Socket.IO |
 | Database | MongoDB, Mongoose |
@@ -84,6 +85,7 @@ http://localhost
 Các endpoint đáng chú ý:
 
 | Đường dẫn | Mô tả |
+| --- | --- |
 | `http://localhost` | Giao diện chính |
 | `http://localhost/status` | Trang kiểm tra tình trạng hệ thống |
 | `http://localhost/api/status` | API trạng thái backend, MongoDB, Redis |
@@ -94,6 +96,7 @@ Các endpoint đáng chú ý:
 Có thể tạo tài khoản trực tiếp trên giao diện đăng ký. Nếu chạy bằng `start.bat` hoặc `start.ps1`, hệ thống sẽ thử tạo các tài khoản demo sau:
 
 | Người dùng | Email | Mật khẩu |
+| --- | --- | --- |
 | Test User 1 | `testuser1@example.com` | `password123` |
 | Test User 2 | `testuser2@example.com` | `password123` |
 | Test User 3 | `testuser3@example.com` | `password123` |
