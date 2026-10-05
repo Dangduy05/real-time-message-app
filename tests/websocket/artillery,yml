@@ -1,0 +1,24 @@
+config:
+
+  target: "ws://localhost/socket.io"
+
+  phases:
+
+    - duration: 60
+
+      arrivalRate: 50
+
+scenarios:
+
+  - engine: "socketio"
+
+    flow:
+
+      - emit:
+
+          channel: "sendMessage"
+
+          data:
+
+            content:
+              "hello"
